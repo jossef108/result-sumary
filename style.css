@@ -1,0 +1,146 @@
+.flex-container {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+.result-container {
+    height: 27em;
+    width: 17em;
+    background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    border-radius: 2em;
+}
+
+.title-result {
+    text-align: center;
+    color: #DDD4FF;
+    margin-top: 1.5em;
+    margin-bottom: 2em;
+    
+}
+.shadow-circle {
+    background: linear-gradient( hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    width: 9em;
+    height: 9em;
+    border-radius: 50%;
+    position: relative;
+    left: 3.99em;
+    margin-bottom: 2em;
+}
+.result1 {
+    text-align: center;
+    font-size: 3em;
+    margin: 0;
+    color: white;
+    padding-top: 0.6em;
+    font-weight: bold;
+}
+.result2 {
+    text-align: center;
+    color: grey;
+    font-size: 1em;
+    margin: 0;
+}
+
+.result-meta {
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.result-data {
+    text-align: center;
+    color: #D0CFFF;
+}
+
+.summary {
+    height: 25em;
+    width: 15em;
+    padding: 1em;
+    background-color: white;
+    border-radius: 2em;
+}
+
+.summary-title {
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.summary-data {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5em;
+    margin-bottom: 1.5em;
+}
+
+.result-details {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    background-color: hsl(224, 30%, 27%);
+    border: none;
+    border-radius: 2em;
+    height: 3em;
+    color: white;
+    font-weight: bold;
+    width: 17em;
+    position: relative;
+    left: 0.5em;
+}
+
+.flex-box {
+
+}
+
+.red {
+    color: hsl(0, 100%, 67%);
+    background-color: #FFF6F5;
+    border-radius: 1em;
+    padding: 0.1em;
+    margin-bottom: 1em;
+}
+
+.meta1 {
+    flex-grow: 1;
+    margin: 0;
+} 
+
+.yellow {
+    color: hsl(39, 100%, 56%);
+    background-color: #FFFBF2;
+    border-radius: 1em;
+    padding: 0.1em;
+    margin-bottom: 1em;
+}
+
+.green {
+    color: hsl(166, 100%, 37%);
+    background-color: #F2FBFA;
+    border-radius: 1em;
+    padding: 0.1em;
+    margin-bottom: 1em;
+}
+
+.blue {
+    color: hsl(234, 85%, 45%);
+    background-color: #F3F3FD;
+    border-radius: 1em;
+    padding: 0.1em;
+}
+
+.flex-start {
+    align-self: flex-start;
+}
+
+span {
+    color: grey;
+}
